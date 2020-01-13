@@ -16,6 +16,7 @@
 		97E585BD238A01A8009EEE55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E585BB238A01A8009EEE55 /* LaunchScreen.storyboard */; };
 		97E585C8238A01A8009EEE55 /* MyGpsMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E585C7238A01A8009EEE55 /* MyGpsMapTests.swift */; };
 		97E585D3238A01A8009EEE55 /* MyGpsMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E585D2238A01A8009EEE55 /* MyGpsMapUITests.swift */; };
+		97E585E2238A03E5009EEE55 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E585E1238A03E5009EEE55 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		97E585CE238A01A8009EEE55 /* MyGpsMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGpsMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E585D2238A01A8009EEE55 /* MyGpsMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGpsMapUITests.swift; sourceTree = "<group>"; };
 		97E585D4238A01A8009EEE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E585E1238A03E5009EEE55 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97E585E2238A03E5009EEE55 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				97E585C6238A01A8009EEE55 /* MyGpsMapTests */,
 				97E585D1238A01A8009EEE55 /* MyGpsMapUITests */,
 				97E585AB238A01A6009EEE55 /* Products */,
+				97E585E0238A03E5009EEE55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +133,14 @@
 				97E585D4238A01A8009EEE55 /* Info.plist */,
 			);
 			path = MyGpsMapUITests;
+			sourceTree = "<group>";
+		};
+		97E585E0238A03E5009EEE55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97E585E1238A03E5009EEE55 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
